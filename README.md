@@ -1,27 +1,21 @@
-# Contract App (Frontend)
+To download and run this project on any laptop:
 
-This is a React + Vite frontend project.
+1) Install Node.js (v18+ recommended) from https://nodejs.org and restart your laptop/terminal after installation.
 
-## Requirements
-- Node.js (18+ recommended)
-- npm
-
-## How to Run (Local Setup)
-
-1) Clone the repository
-```bash
+2) Open Terminal / CMD / VS Code Terminal and run:
 git clone https://github.com/mohdzulqarnain63-arch/Contract-app.git
 
-# 2) Go inside the frontend folder
+3) Now go inside the frontend folder (this is important):
 cd Contract-app/Contract-Platform/contract-app
 
-# 3) Install dependencies
+4) Install all dependencies:
 npm install
 
-# 4) Start the development server
+5) Start the project:
 npm run dev
 
-# open in browser
-http://localhost:5173
+6) Open the project in browser using the URL shown in terminal (usually):
+http://localhost:5173/
 
+Note: If localhost:5173 is already in use, Vite will run on another port (like 5174). Open the new URL shown in terminal.
 
