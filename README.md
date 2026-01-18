@@ -6,7 +6,7 @@ To download and run this project on any laptop:
 git clone https://github.com/mohdzulqarnain63-arch/Contract-app.git
 
 3) Now go inside the frontend folder (this is important):
-cd Contract-app/Contract-Platform/contract-app
+cd Contract-Platform/contract-app
 
 4) Install all dependencies:
 npm install
