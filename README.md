@@ -20,7 +20,7 @@ http://localhost:5173/
 Note: If localhost:5173 is already in use, Vite will run on another port (like 5174). Open the new URL shown in terminal.
 
 ''' bash
-git clone https://github.com/mohdzulqarnain63-arch/Contract-app.git
-cd Contract-app/Contract-Platform/contract-app
-npm install
+git clone https://github.com/mohdzulqarnain63-arch/Contract-app.git 
+cd Contract-app/Contract-Platform/contract-app 
+npm install 
 npm run dev
