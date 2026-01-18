@@ -6,7 +6,7 @@ To download and run this project on any laptop:
 git clone https://github.com/mohdzulqarnain63-arch/Contract-app.git
 
 3) Now go inside the frontend folder (this is important):
-cd Contract-Platform/contract-app
+cd Contract-app/Contract-Platform/contract-app
 
 4) Install all dependencies:
 npm install
@@ -19,3 +19,8 @@ http://localhost:5173/
 
 Note: If localhost:5173 is already in use, Vite will run on another port (like 5174). Open the new URL shown in terminal.
 
+''' bash
+git clone https://github.com/mohdzulqarnain63-arch/Contract-app.git
+cd Contract-app/Contract-Platform/contract-app
+npm install
+npm run dev
