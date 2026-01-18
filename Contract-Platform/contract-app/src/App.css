@@ -1,0 +1,36 @@
+/* Full screen setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background: #050814; /* dark */
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* remove default vite center */
+body {
+  display: block;
+}
+
+/* main app full width */
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #071b3a, #050814);
+  color: white;
+}
+@keyframes moveBg {
+  0% { transform: scale(1) translateX(0px); }
+  100% { transform: scale(1.05) translateX(-20px); }
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
